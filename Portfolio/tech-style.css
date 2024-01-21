@@ -1,0 +1,62 @@
+body {
+    background-color: #000000;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: hsl(0, 0%, 77%);
+}
+
+nav.container-fluid {
+    background-color: #1a1a1a;
+    color: #512323;
+}
+
+nav.container-fluid ul li a {
+    color: #4dd0e1;
+}
+
+nav.container-fluid ul li a:hover {
+    color: #00bcd4;
+}
+
+main.container {
+    background-color: #0f0225a2;
+    border-radius: 8px;
+    margin-top: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    padding: 20px;
+}
+
+footer.container {
+    background-color: #1a1a1a;
+    color: #ffffff;
+    text-align: center;
+    padding: 15px 0;
+    margin-top: 30px;
+}
+
+h2, h3 {
+    color: #2196f3;
+}
+
+/* Techy Button Style */
+button {
+    background-color: #2196f3;
+    color: #f70000;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #1a67da;
+}
+img.profile-pic {
+    display: block;
+    margin: 0 auto; /* Center the image */
+    border-radius: 50%; /* Circular image */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Optional shadow */
+    max-width: 150px; /* Maximum width */
+}
+
+/* Add more styles as per your design preference */
